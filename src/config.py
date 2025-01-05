@@ -1,3 +1,2 @@
 GITHUB_API_URL = "https://api.github.com"
-# GITHUB_TOKEN = None  # Reemplaza con tu token si deseas acceder a repos privados
-GITHUB_TOKEN =   # Reemplaza con tu token si deseas acceder a repos privados
+GITHUB_TOKEN = None  # Change this to your GitHub Personal Access Token for more Api requests and grant access to private repos Or (leave it as None)                                                                                    

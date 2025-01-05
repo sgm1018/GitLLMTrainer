@@ -13,6 +13,7 @@ The **GitHub Repository Crawler** is a Python-based tool that enables users to s
 - **Recursively Scrape Repositories**: Extract all files and folders from a given repository.
 - **Fetch Raw File Content**: Retrieve and store the raw content of files.
 - **Structured JSON Output**: Save the scraped data in an organized and human-readable JSON format.
+- **Train your LLM Models**: Use the scraped data to train your models.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -52,8 +53,8 @@ repo/
 ## Installation
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/sgm1018/GitLLMTrainer.git
+cd GitLLMTrainer
 ```
 
 ### Step 2: Set Up a Virtual Environment

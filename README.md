@@ -6,8 +6,12 @@
   <img src="https://img.shields.io/badge/Python-3.10.6%2B-blue?logo=python&logoColor=white" alt="Python Badge">
 </p>
 
+
 ## Overview
 The **GitHub Repository Crawler** is a Python-based tool that enables users to scrape the contents of public GitHub repositories. It recursively fetches files, directories, and their raw contents, saving the data in a structured JSON format. The tool is especially useful for developers, researchers, and analysts seeking to analyze repository content programmatically.
+
+## Demo
+https://github.com/user-attachments/assets/b8a0a88d-f834-49bb-9d14-f0c57dd9f89a
 
 ## Features
 - **Recursively Scrape Repositories**: Extract all files and folders from a given repository.
@@ -90,9 +94,9 @@ python src/main.py <GitHub repository URL>
 ```
 
 ## Examples
-To scrape the contents of the `tldraw/tldraw` repository:
+To scrape the contents of the `sgm1018/GitLLMTrainer` repository:
 ```bash
-python src/main.py https://github.com/tldraw/tldraw
+python src/main.py https://github.com/sgm1018/GitLLMTrainer
 ```
 Expected output:
 ```

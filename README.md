@@ -132,5 +132,9 @@ Contributions are welcome!
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sgm1018/GitLLMTrainer&type=Date)](https://star-history.com/#sgm1018/GitLLMTrainer&Date)
+
 ---
 

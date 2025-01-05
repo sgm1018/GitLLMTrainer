@@ -14,6 +14,9 @@ The data gathered from this app can be used to train large language models (LLMs
 ## Demo
 https://github.com/user-attachments/assets/b8a0a88d-f834-49bb-9d14-f0c57dd9f89a
 
+![image](https://github.com/user-attachments/assets/52f882a5-e928-410a-a800-a008ee53f5c6)
+
+
 ## Features
 - **Recursively Scrape Repositories**: Extract all files and folders from a given repository.
 - **Fetch Raw File Content**: Retrieve and store the raw content of files.

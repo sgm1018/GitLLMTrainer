@@ -1,4 +1,6 @@
 import unittest
+import sys
+sys.path.append('..')
 from src.crawler.github_api import GitHubAPI
 
 

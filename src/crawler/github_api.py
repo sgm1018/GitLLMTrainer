@@ -1,8 +1,9 @@
 import requests
 import sys
+import time
+import sys
 sys.path.append('..')
 from config import GITHUB_API_URL, GITHUB_TOKEN
-import time
 
 
 class GitHubAPI:

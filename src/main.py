@@ -2,7 +2,7 @@ import sys
 from crawler.scraper import GitHubScraper
 from crawler.json_formatter import JSONFormatter
 from utils.helpers import is_valid_url
-from crawler.logger import get_logger
+from crawler.logger import get_logger, print_hero
 
 logger = get_logger()
 
@@ -16,6 +16,8 @@ def main():
         logger.error("Invalid GitHub URL. Please provide a valid URL.")
         sys.exit(1)
 
+
+    print_hero()
     scraper = GitHubScraper(repo_url)
     data = scraper.scrape()
 

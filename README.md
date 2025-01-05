@@ -4,6 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10.6%2B-blue?logo=python&logoColor=white" alt="Python Badge">
+  <img src="https://img.shields.io/github/stars/sgm1018/GitLLMTrainer?style=social">
 </p>
 
 

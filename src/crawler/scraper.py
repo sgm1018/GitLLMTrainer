@@ -2,7 +2,7 @@ from config import GITHUB_API_URL
 from crawler.github_api import GitHubAPI
 from crawler.logger import get_logger
 from crawler.json_formatter import JSONFormatter
-from tqdm import tqdm
+from utils.helpers import is_valid_file
 
 
 class GitHubScraper:
@@ -31,7 +31,7 @@ class GitHubScraper:
         contents = self.api.fetch_directory(api_url)
         for item in contents:
             if item["type"] == "file":
-                content = self.api.fetch_file_content(item["download_url"])
+                content = self.api.fetch_file_content(item["download_url"]) if is_valid_file(item['name']) else ''
                 self.data_tree.append({
                     "path": f"{path_prefix}/{item['name']}",
                     "type": "file",
